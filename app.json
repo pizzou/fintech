@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "sample",
-    "slug": "sample",
+    "name": "FINTECH",
+    "slug": "FINTECH",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/images/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mpumuro.FINTECH"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./src/assets/images/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e460dc33-8dd8-4c7a-91d9-083862d8f745"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
